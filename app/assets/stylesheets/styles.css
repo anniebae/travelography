@@ -1,6 +1,5 @@
 body {
   background-color: white;
-  color: white;
   font-family: 'Poiret One';
 }
 
@@ -117,6 +116,7 @@ h1 {
 
 .site_info_txt {
   padding-top: 6%;
+  color: white;
 }
 
 .heart_icon {
