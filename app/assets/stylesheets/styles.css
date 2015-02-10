@@ -1,10 +1,38 @@
 body {
-  background-color: red;
+  background-color: white;
 }
 
 .banner {
   width: 100%;
   height: 500px;
+}
+
+.banner_map {
+  top: 0;
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+  position: relative;
+}
+
+.banner_cover_layer {
+  top: 0;
+  width: 100%;
+  height: 500px;
+  z-index: 3;
+  opacity: 0.6;
+  background-color: black;
+  position: absolute;
+}
+
+.banner_cover_txt {
+  color: white;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  z-index: 5;
+  opacity: 0.5;
+  position: absolute;
 }
 
 .navbar .navbar-nav {
@@ -21,4 +49,13 @@ body {
   border-radius: 0px;
   background-color: #ffffff;
   border-color: #ffffff;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 300px;
+}
+
+.bx-wrapper {
+  border: 0px;
 }

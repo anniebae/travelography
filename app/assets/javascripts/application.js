@@ -13,9 +13,9 @@
 //= require jquery
 //= requre jquery.min.js
 //= require jquery_ujs
+//= require jquery.bxslider.min.js
 //= require turbolinks
 //= require twitter/bootstrap
-//= require bootstrap.min
-//= require jquery.bxslider.min.js
+//= require bootstrap.min.js
 //= require main.js
 //= require_tree .

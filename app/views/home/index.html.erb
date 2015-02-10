@@ -1,10 +1,19 @@
-<div>
+<div class="banner_map">
   <%= image_tag "worldmap.jpg", :class => "banner" %>
+  <div class="banner_cover_layer">  
+  </div>
+  <div class="banner_cover_txt">
+    Travels
+  </div>
 </div>
 
-<ul class="bxslider">
-  <li><%= image_tag "test_france.jpg", :class => "banner" %></li>
-  <li><%= image_tag "test_spain.jpg", :class => "banner" %></li>
-  <li><%= image_tag "test_wales.jpg", :class => "banner" %></li>
-</ul>
 
+<nav>
+  <%= render partial: 'shared/navbar'  %>
+</nav>
+
+<ul class="bxslider">
+  <li><%= image_tag "test_france.jpg", :class => "carousel-img" %></li>
+  <li><%= image_tag "test_spain.jpg", :class => "carousel-img" %></li>
+  <li><%= image_tag "test_wales.jpg", :class => "carousel-img" %></li>
+</ul>
