@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <title>Travelography</title>
   <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-
+  
+  <link rel="stylesheet" href="stylesheets/jquery.bxslider.css">
   <link rel="stylesheet" href="stylesheets/bootstrap.css">
   <link rel="stylesheet" href="stylesheets/styles.css">
 
   <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
 </head>
@@ -24,7 +26,6 @@
     </div>
   </div>
 
-
   <!-- NAVBAR -->
   <nav class="navbar navbar-default" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -36,7 +37,6 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
@@ -59,12 +59,13 @@
   </nav>
 
 
-  <script>
-      $(document).ready(function () {
-          $('.dropdown-toggle').dropdown();
-      });
-  </script>
 
+  <!-- BXSLIDER -->
+  <ul class="bxslider">
+    <li><img src="images/test_france.jpg" class="slider-img"></li>
+    <li><img src="images/test_spain.jpg" class="slider-img"></li>
+    <li><img src="images/test_wales.jpg" class="slider-img"></li>
+  </ul>
 
 
 
