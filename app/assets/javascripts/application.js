@@ -12,8 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap.min.js
-//= require jquery.bxslider.js
-//= require animations.min.js
-//= require appear.min.js
+//= require bootstrap.min
+//= require appear.min
+//= require jquery.bxslider
+//= require animations.min
+//= require lightbox.min
 //= require_tree .
