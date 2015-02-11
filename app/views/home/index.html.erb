@@ -1,3 +1,4 @@
+<!-- BANNER -->
 <div id="banner_map">
   <%= image_tag "worldmap.jpg", :class => "banner" %>
   <div id="banner_cover_layer">  
@@ -7,17 +8,19 @@
 </div>
 </div>
 
-
+<!-- NAVBAR PARTIAL -->
 <nav>
   <%= render partial: 'shared/navbar'  %>
 </nav>
 
+<!-- PHOTO CAROUSEL -->
 <ul class="bxslider">
   <li><%= image_tag "test_france.jpg", :class => "carousel-img" %></li>
   <li><%= image_tag "test_spain.jpg", :class => "carousel-img" %></li>
   <li><%= image_tag "test_wales.jpg", :class => "carousel-img" %></li>
 </ul>
 
+<!-- SOCIAL MEDIA ICONS -->
 <div id="social_media_contacts">
   <ul id="social_media_ul">
     <li><a href="https://www.facebook.com/bae.annie" target="_blank"><%= image_tag "social_media_icons_blk/facebook_black.png", :class => "social_media_icon" %></a></li>
@@ -29,6 +32,7 @@
   </ul>
 </div>
 
+<!-- SITE INFO -->
 <div id="site_info">
   <div class="site_info_txt">
     <p>This site was built with <%= image_tag "white_heart.png", :class => "heart_icon" %> in Ruby on Rails using HTML, CSS, Javascript, jQuery, and Twitter Bootstrap.</p>
