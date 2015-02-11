@@ -41,6 +41,14 @@ h1 {
   font-family: 'Poiret One';
   font-size: 450%;
   font-weight: 300;
+  margin-top: 80px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Poiret One';
+  font-size: 450%;
+  font-weight: 300;
   margin-top: 200px;
 }
 
