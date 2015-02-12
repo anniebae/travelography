@@ -1,3 +1,12 @@
+icons = [
+  {platform: 'blogger', img: 'stylesheets/images/social_media_icons/blogger.png'},
+  {platform: 'facebook', img: 'stylesheets/images/social_media_icons/facebook.png'},
+  {platform: 'instagram', img: 'stylesheets/images/social_media_icons/instagram.png'},
+  {platform: 'linkedin', img: 'stylesheets/images/social_media_icons/linkedin.png'},
+  {platform: 'tumblr', img: 'stylesheets/images/social_media_icons/tumblr.png'},
+  {platform: 'twitter', img: 'stylesheets/images/social_media_icons/twitter.png'}
+];
+facebook = {platform: 'facebook', img: 'stylesheets/images/social_media_icons/facebook.png'}
 $(document).ready(function () {
   $('.dropdown-toggle').dropdown();
   $('.bxslider').bxSlider({
@@ -5,5 +14,18 @@ $(document).ready(function () {
   });
 });
 
+socialMediaIconsCollection = new SocialMediaIconsCollection(icons);
+
+facebook = socialMediaIconsCollection.models[0];
+
+icon = new SocialMediaIcon(facebook);
+model = icon.toJSON();
 var bannerView = new BannerView();
 var navbarView = new NavbarView();
+var bxsliderView = new BxsliderView();
+var socialMediaView = new SocialMediaView(facebook.attributes);
+
+
+$(function() {
+  console.log(socialMediaIconsCollection);
+});
