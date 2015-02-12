@@ -4,10 +4,13 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'Poiret One';
   font-size: 450%;
   font-weight: 300;
   margin-top: 80px;
+}
+
+h4 {
+  text-align: center;
 }
 
 .slider-img {
@@ -19,24 +22,7 @@ h1 {
   border: 0px;
 }
 
-.about-photo {
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
-}
 
-#about-row-photos {
-  list-style-type: none;
-}
-
-#about-row-photos li {
-  display: inline-block;
-  margin: 0 4px 0 4px;
-}
-
-#about-photo-wrapper {
-  text-align: center;
-}
 /**************** BANNER STYLE ****************/
 .banner {
   width: 100%;
@@ -161,8 +147,44 @@ h2 {
 }
 /**************** SITE INFO FOOTER ****************/
 
+/**************** ABOUT STYLE ****************/
+.about-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+#about-row-photos {
+  list-style-type: none;
+}
+
+#about-row-photos li {
+  display: inline-block;
+  margin: 0 4px 0 4px;
+}
+
+#about-photo-wrapper {
+  text-align: center;
+}
+/**************** ABOUT STYLE ****************/
+
 
 .lightbox-photo {
   height: 300px;
   width: 300px;
+}
+
+.city-div {
+  margin-bottom: 80px;
+}
+
+.city-navbar {
+  position: fixed;
+  top: 5%;
+  right: 3%;
+  font-size: 18px;
+}
+
+#city-navbar-ul {
+  list-style-type: none;
 }

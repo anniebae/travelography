@@ -11,3 +11,4 @@ var navbarView = new NavbarView();
 var bxsliderView = new BxsliderView();
 var socialMediaView = new SocialMediaView();
 var siteInfoView = new SiteInfoView();
+var aboutView = new AboutView();
