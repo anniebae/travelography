@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Travelography</title>
-  
   <!-- STYLES -->
   <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="../stylesheets/bootstrap.css">
-  <link rel="stylesheet" href="../stylesheets/styles.css">
-  <link rel="stylesheet" href="../stylesheets/lightbox.css">
-  <link rel="stylesheet" href="../stylesheets/animations.min.css">
-
-
-
+  <link rel="stylesheet" href="./stylesheets/jquery.bxslider.css">
+  <link rel="stylesheet" href="./stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="./stylesheets/styles.css">
+  <link rel="stylesheet" href="./stylesheets/lightbox.css">
+  <link rel="stylesheet" href="./stylesheets/animations.min.css">
 </head>
 <body>
-  
+
+
+<div id="banner"></div>
+
+<script type="text/template" id="banner-template">
   <!-- BANNER -->
   <div id="banner_map">
     <img src="stylesheets/images/worldmap.jpg" class="banner">
@@ -25,6 +26,7 @@
       <h2>Travelography</h2>
     </div>
   </div>
+</script>
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-default" role="navigation">
@@ -88,13 +90,16 @@
   </div>
 
 
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/jquery.bxslider.js"></script>
-  <script src="../js/lightbox.min.js"></script>
-  <script src="../js/main.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
-  <script src="../js/animations.min.js"></script>
-  <script src="../js/appear.min.js"></script>
+  <script src="./js/lib/jquery.min.js"></script>
+  <script src="./js/lib/lightbox.min.js"></script>
+  <script src="./js/lib/underscore.js"></script>
+  <script src="./js/lib/backbone.js"></script>
+  <script src="./js/lib/bootstrap.min.js"></script>
+  <script src="./js/lib/animations.min.js"></script>
+  <script src="./js/lib/appear.min.js"></script>
+  <script src="./js/lib/jquery.bxslider.js"></script>
+  <script src="./js/backbone/views/bannerView.js"></script>
+  <script src="./js/main.js"></script>
 
 </body>
 </html>
