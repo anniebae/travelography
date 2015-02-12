@@ -15,9 +15,10 @@
 
 
 <div id="banner"></div>
+<div id="navbar"></div>
 
+<!-- BANNER -->
 <script type="text/template" id="banner-template">
-  <!-- BANNER -->
   <div id="banner_map">
     <img src="stylesheets/images/worldmap.jpg" class="banner">
     <div id="banner_cover_layer">  
@@ -29,6 +30,7 @@
 </script>
 
   <!-- NAVBAR -->
+<script type="text/template" id="navbar-template">
   <nav class="navbar navbar-default" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -59,7 +61,7 @@
       </ul>
     </div><!-- /.navbar-collapse -->
   </nav>
-
+</script>
 
 
   <!-- BXSLIDER -->
@@ -99,6 +101,7 @@
   <script src="./js/lib/appear.min.js"></script>
   <script src="./js/lib/jquery.bxslider.js"></script>
   <script src="./js/backbone/views/bannerView.js"></script>
+  <script src="./js/backbone/views/navbarView.js"></script>
   <script src="./js/main.js"></script>
 
 </body>

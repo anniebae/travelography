@@ -6,3 +6,4 @@ $(document).ready(function () {
 });
 
 var bannerView = new BannerView();
+var navbarView = new NavbarView();
