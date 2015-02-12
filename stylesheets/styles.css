@@ -19,7 +19,24 @@ h1 {
   border: 0px;
 }
 
+.about-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
 
+#about-row-photos {
+  list-style-type: none;
+}
+
+#about-row-photos li {
+  display: inline-block;
+  margin: 0 4px 0 4px;
+}
+
+#about-photo-wrapper {
+  text-align: center;
+}
 /**************** BANNER STYLE ****************/
 .banner {
   width: 100%;
