@@ -1,3 +1,5 @@
+
+
 icons = [
   {platform: 'blogger', img: 'stylesheets/images/social_media_icons/blogger.png'},
   {platform: 'facebook', img: 'stylesheets/images/social_media_icons/facebook.png'},
@@ -14,13 +16,15 @@ $(document).ready(function () {
   });
 });
 
-socialMediaIconsCollection = new SocialMediaIconsCollection(icons);
 
 var bannerView = new BannerView();
 var navbarView = new NavbarView();
 var bxsliderView = new BxsliderView();
 var socialMediaView = new SocialMediaView();
+var siteInfoView = new SiteInfoView();
 
+
+socialMediaIconsCollection = new SocialMediaIconsCollection(icons);
 
 $(function() {
   console.log(socialMediaIconsCollection);
