@@ -16,14 +16,10 @@ $(document).ready(function () {
 
 socialMediaIconsCollection = new SocialMediaIconsCollection(icons);
 
-facebook = socialMediaIconsCollection.models[0];
-
-icon = new SocialMediaIcon(facebook);
-model = icon.toJSON();
 var bannerView = new BannerView();
 var navbarView = new NavbarView();
 var bxsliderView = new BxsliderView();
-var socialMediaView = new SocialMediaView(facebook.attributes);
+var socialMediaView = new SocialMediaView();
 
 
 $(function() {
