@@ -194,3 +194,13 @@ h2 {
 #city-navbar-ul {
   list-style-type: none;
 }
+
+.lb-outerContainer {
+  width: 975px;
+  height: 658px;
+}
+
+.lightbox .lb-image {
+  width: 967;
+  height: 650px;
+}
