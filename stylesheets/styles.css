@@ -168,20 +168,21 @@ h2 {
 }
 /**************** ABOUT STYLE ****************/
 
+.city-photos-wrapper {
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 302px;
+  overflow-y: scroll;
+}
 
 .lightbox-photo {
   height: 300px;
   width: 154px;
 }
 
-.rotate-photo {
-  transform: rotate(90deg);
-  width: 300px;
-  height: 300px;
-}
 
-.city-div {
-  margin-bottom: 80px;
+.lightbox-photo {
+  margin-bottom: 15%;
 }
 
 .city-navbar {
@@ -193,14 +194,4 @@ h2 {
 
 #city-navbar-ul {
   list-style-type: none;
-}
-
-.lb-outerContainer {
-  width: 975px;
-  height: 658px;
-}
-
-.lb-image {
-  width: 967;
-  height: 650px;
 }
