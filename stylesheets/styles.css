@@ -197,3 +197,12 @@ h2 {
 #city-navbar-ul {
   list-style-type: none;
 }
+
+#city-navbar-ul li a{
+  color: grey;
+}
+
+.arrow-up {
+  text-align: center;
+  width: 50px;
+}
