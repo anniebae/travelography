@@ -167,6 +167,11 @@ h2 {
   text-align: center;
 }
 /**************** ABOUT STYLE ****************/
+.all-cities-wrapper {
+  width: 100%;
+  overflow-y: scroll;
+  height: 55%;
+}
 
 .city-photos-wrapper {
   margin-left: 20%;
@@ -174,6 +179,7 @@ h2 {
   height: 302px;
   overflow-y: scroll;
 }
+
 
 .lightbox-photo {
   height: 300px;
