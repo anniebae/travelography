@@ -12,3 +12,4 @@ var bxsliderView = new BxsliderView();
 var socialMediaView = new SocialMediaView();
 var siteInfoView = new SiteInfoView();
 var aboutView = new AboutView();
+var englandView = new EnglandView();
