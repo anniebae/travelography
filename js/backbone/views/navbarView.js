@@ -29,6 +29,6 @@ var NavbarView = Backbone.View.extend({
     return this;
   },
   showNetherlands: function() {
-    photoView = new PhotoView();
+  photoView = new PhotoView();
   },
 });
