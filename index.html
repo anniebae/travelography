@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="./stylesheets/bootstrap.css">
   <link rel="stylesheet" href="./stylesheets/animations.min.css">
   <link rel="stylesheet" href="./stylesheets/lightbox.css">
+  <link rel="stylesheet" href="./stylesheets/shelves.css">
   <link rel="stylesheet" href="./stylesheets/styles.css">
 </head>
 <body>
-
 
 <div id="banner"></div>
 <div id="navbar"></div>
@@ -21,6 +21,8 @@
 <div id="site-info"></div>
 <div id="about"></div>
 <div id="england"></div>
+<div id="france"></div>
+<div id="italy"></div>
 
 <!-- BANNER -->
 <script type="text/template" id="banner-template">
@@ -373,25 +375,514 @@
 
 
 <!-- ***************************************** FRANCE TEMPLATE ***************************************** -->
-<h1 class="animate-in" data-anim-type="fade-in">F R A N C E</h1>
+<script type="text/template" id="france-template">
+  <h1 class="animate-in" data-anim-type="fade-in">F R A N C E</h1>
 
-<div class="city-navbar">
-  <ul id="city-navbar-ul">
-    <li><a href="#paris">paris</a></li>
-    <li><a href="#versailles">versailles</a></li>
-  </ul>
-</div>
+  <div class="city-navbar">
+    <ul id="city-navbar-ul">
+      <li><a href="#paris">paris</a></li>
+      <li><a href="#versailles">versailles</a></li>
+    </ul>
+  </div>
+
+  <div class="all-cities-wrapper">
+    <!-- MILAN BOOTSTRAP GRID -->
+    <h4 id="paris">paris</h4>
+    <div class="city-photos-wrapper">
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par1.JPG" data-lightbox="paris" data-title="Hotel de Ville">
+            <img src="stylesheets/images/paris/par1.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par2.JPG" data-lightbox="paris" data-title="Jardin des Tuileries">
+            <img src="stylesheets/images/paris/par2.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par3.JPG" data-lightbox="paris">
+            <img src="stylesheets/images/paris/par3.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par4.JPG" data-lightbox="paris">
+            <img src="stylesheets/images/paris/par4.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par5.JPG" data-lightbox="paris" data-title="Louvre Museum">
+            <img src="stylesheets/images/paris/par5.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par6.JPG" data-lightbox="paris">
+            <img src="stylesheets/images/paris/par6.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par7.JPG" data-lightbox="paris" data-title="Moulin Rouge">
+            <img src="stylesheets/images/paris/par7.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par8.JPG" data-lightbox="paris" data-title="Galeries Lafayette">
+            <img src="stylesheets/images/paris/par8.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par9.JPG" data-lightbox="paris">
+            <img src="stylesheets/images/paris/par9.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par10.JPG" data-lightbox="paris">
+            <img src="stylesheets/images/paris/par10.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par11.JPG" data-lightbox="paris" data-title="Arc de Triomphe">
+            <img src="stylesheets/images/paris/par11.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par12.JPG" data-lightbox="paris" data-title="Champs-Elysees">
+            <img src="stylesheets/images/paris/par12.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par13.JPG" data-lightbox="paris" data-title="La Seine">
+            <img src="stylesheets/images/paris/par13.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par14.JPG" data-lightbox="paris" data-title="Statue of Liberty">
+            <img src="stylesheets/images/paris/par14.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par15.JPG" data-lightbox="paris">
+            <img src="stylesheets/images/paris/par15.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par16.JPG" data-lightbox="paris">
+            <img src="stylesheets/images/paris/par16.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par17.JPG" data-lightbox="paris" data-title="Jardin du Luxembourg">
+            <img src="stylesheets/images/paris/par17.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par18.JPG" data-lightbox="paris">
+            <img src="stylesheets/images/paris/par18.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par19.JPG" data-lightbox="paris" data-title="Eiffel Tower">
+            <img src="stylesheets/images/paris/par19.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/paris/par20.JPG" data-lightbox="paris">
+            <img src="stylesheets/images/paris/par20.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- VERSAILLES BOOTSTRAP GRID -->
+    <h4 id="versailles">versailles</h4>
+    <div class="city-photos-wrapper">
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver1.JPG" data-lightbox="versailles" data-title="Chateau de Versailles">
+            <img src="stylesheets/images/versailles/ver1.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver2.JPG" data-lightbox="versailles" data-title="Chateau de Versailles">
+            <img src="stylesheets/images/versailles/ver2.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver3.JPG" data-lightbox="versailles" data-title="Chateau de Versailles">
+            <img src="stylesheets/images/versailles/ver3.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver4.JPG" data-lightbox="versailles" data-title="Chateau de Versailles">
+            <img src="stylesheets/images/versailles/ver4.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver5.JPG" data-lightbox="versailles">
+            <img src="stylesheets/images/versailles/ver5.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver6.JPG" data-lightbox="versailles" data-title="Chateau de Versailles">
+            <img src="stylesheets/images/versailles/ver6.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver7.JPG" data-lightbox="versailles">
+            <img src="stylesheets/images/versailles/ver7.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver8.JPG" data-lightbox="versailles" data-title="Hall of Mirrors">
+            <img src="stylesheets/images/versailles/ver8.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver9.JPG" data-lightbox="versailles" data-title="Chateau de Versailles">
+            <img src="stylesheets/images/versailles/ver9.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver10.JPG" data-lightbox="versailles" data-title="Hall of Mirrors">
+            <img src="stylesheets/images/versailles/ver10.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver11.JPG" data-lightbox="versailles" data-title="Hall of Mirrors">
+            <img src="stylesheets/images/versailles/ver11.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/versailles/ver12.JPG" data-lightbox="versailles" data-title="Chateau de Versailles">
+            <img src="stylesheets/images/versailles/ver12.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
 
 
+<!-- ***************************************** ITALY TEMPLATE ***************************************** -->
+<script type="text/template" id="italy-template">
+  <h1 class="animate-in" data-anim-type="fade-in">I T A L Y</h1>
 
+  <div class="city-navbar">
+    <ul id="city-navbar-ul">
+      <li><a href="#milan">milan</a></li>
+      <li><a href="#rome">rome</a></li>
+      <li><a href="#venice">venice</a></li>
+    </ul>
+  </div>
 
+  <div class="all-cities-wrapper">
+    <!-- MILAN BOOTSTRAP GRID -->
+    <h4 id="milan">milan</h4>
+    <div class="city-photos-wrapper">
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil1.JPG" data-lightbox="milan" data-title="Duomo di Milano">
+            <img src="stylesheets/images/milan/mil1.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil2.JPG" data-lightbox="milan" data-title="Italian gelato">
+            <img src="stylesheets/images/milan/mil2.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil3.JPG" data-lightbox="milan" data-title="Duomo di Milano">
+            <img src="stylesheets/images/milan/mil3.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil4.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil4.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil5.JPG" data-lightbox="milan" data-title="Navigli District">
+            <img src="stylesheets/images/milan/mil5.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil6.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil6.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil7.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil7.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil8.JPG" data-lightbox="milan" data-title="Pinacoteca di Brera">
+            <img src="stylesheets/images/milan/mil8.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil9.JPG" data-lightbox="milan" data-title="Brera District">
+            <img src="stylesheets/images/milan/mil9.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil10.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil10.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil11.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil11.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil12.JPG" data-lightbox="milan" data-title="Castello Sforzesco">
+            <img src="stylesheets/images/milan/mil12.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil13.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil13.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil14.JPG" data-lightbox="milan" data-title="Duomo di Milano">
+            <img src="stylesheets/images/milan/mil14.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil15.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil15.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil16.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil16.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil17.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil17.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil18.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil18.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil19.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil19.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/milan/mil20.JPG" data-lightbox="milan">
+            <img src="stylesheets/images/milan/mil20.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+    </div>
 
+    <!-- ROME BOOTSTRAP GRID -->
+    <h4 id="rome">rome</h4>
+    <div class="city-photos-wrapper">
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome1.JPG" data-lightbox="rome">
+            <img src="stylesheets/images/rome/rome1.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome2.JPG" data-lightbox="rome" data-title="Spanish Steps">
+            <img src="stylesheets/images/rome/rome2.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome3.JPG" data-lightbox="rome">
+            <img src="stylesheets/images/rome/rome3.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome4.JPG" data-lightbox="rome">
+            <img src="stylesheets/images/rome/rome4.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome5.JPG" data-lightbox="rome">
+            <img src="stylesheets/images/rome/rome5.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome6.JPG" data-lightbox="rome">
+            <img src="stylesheets/images/rome/rome6.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome7.JPG" data-lightbox="rome">
+            <img src="stylesheets/images/rome/rome7.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome8.JPG" data-lightbox="rome" data-title="Trevi Fountain">
+            <img src="stylesheets/images/rome/rome8.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome9.JPG" data-lightbox="rome" data-title="Fontana della Barcaccia">
+            <img src="stylesheets/images/rome/rome9.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome10.JPG" data-lightbox="rome" data-title="Saint Peter's Basilica">
+            <img src="stylesheets/images/rome/rome10.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome11.JPG" data-lightbox="rome" data-title="The Creation of Adam">
+            <img src="stylesheets/images/rome/rome11.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome12.JPG" data-lightbox="rome">
+            <img src="stylesheets/images/rome/rome12.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome13.JPG" data-lightbox="rome">
+            <img src="stylesheets/images/rome/rome13.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome14.JPG" data-lightbox="rome" data-title="Saint Peter's Basilica">
+            <img src="stylesheets/images/rome/rome14.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome15.JPG" data-lightbox="rome">
+            <img src="stylesheets/images/rome/rome15.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/rome/rome16.JPG" data-lightbox="rome" data-title="Colosseum">
+            <img src="stylesheets/images/rome/rome16.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- VENICE BOOTSTRAP GRID -->
+    <h4 id="venice">venice</h4>
+    <div class="city-photos-wrapper">
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven1.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven1.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven2.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven2.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven3.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven3.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven4.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven4.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven5.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven5.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven6.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven6.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven7.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven7.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven8.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven8.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven9.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven9.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven10.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven10.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven11.JPG" data-lightbox="venice" data-title="Saint Mark's Basilica">
+            <img src="stylesheets/images/venice/ven11.JPG" class="lightbox-photo">
+          </a>
+        </div>
+        <div class="column-3">
+          <a href="stylesheets/images/venice/ven12.JPG" data-lightbox="venice">
+            <img src="stylesheets/images/venice/ven12.JPG" class="lightbox-photo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
 
 
 
@@ -410,6 +901,8 @@
   <script src="./js/backbone/views/siteinfoView.js"></script>
   <script src="./js/backbone/views/aboutView.js"></script>
   <script src="js/backbone/views/englandView.js"></script>
+  <script src="js/backbone/views/franceView.js"></script>
+  <script src="js/backbone/views/italyView.js"></script>
   <script src="./js/main.js"></script>
 
 </body>

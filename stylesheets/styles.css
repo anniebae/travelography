@@ -187,7 +187,7 @@ h2 {
 .all-cities-wrapper {
   width: 100%;
   overflow-y: scroll;
-  height: 55%;
+  height: 355px;
 }
 
 .city-photos-wrapper {
