@@ -1,4 +1,4 @@
-netherlandsPhotos = [
+netherlands1 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am1.JPG',
@@ -18,7 +18,10 @@ netherlandsPhotos = [
     title: 'Rijksmuseum',
     image: 'stylesheets/images/amsterdam/am4.JPG',
     id: 4
-  },
+  }
+];
+
+netherlands2 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am5.JPG',
@@ -38,7 +41,9 @@ netherlandsPhotos = [
     title: '',
     image: 'stylesheets/images/amsterdam/am8.JPG',
     id: 8
-  },
+  }
+];
+netherlands3 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am9.JPG',
@@ -58,7 +63,10 @@ netherlandsPhotos = [
     title: '',
     image: 'stylesheets/images/amsterdam/am12.JPG',
     id: 12
-  },
+  }
+];
+
+netherlands4 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am13.JPG',
@@ -78,7 +86,10 @@ netherlandsPhotos = [
     title: '',
     image: 'stylesheets/images/amsterdam/am16.JPG',
     id: 16
-  },
+  }
+];
+
+netherlands5 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am17.JPG',
@@ -99,4 +110,4 @@ netherlandsPhotos = [
     image: 'stylesheets/images/amsterdam/am20.JPG',
     id: 20
   }
-];
+]
