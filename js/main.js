@@ -6,4 +6,5 @@ $(document).ready(function () {
 });
 
 
-new AppView();
+new NavbarView();
+

@@ -2,6 +2,10 @@ body {
   font-family: 'Poiret One';
 }
 
+#about {
+  visibility: hidden;
+}
+
 h1 {
   text-align: center;
   font-size: 450%;

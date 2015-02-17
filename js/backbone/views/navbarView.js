@@ -2,6 +2,7 @@ var NavbarView = Backbone.View.extend({
   el: "#navbar",
   navbarTemplate: _.template($("#navbar-template").html()),
   homeBannerTemplate: _.template($("#home-banner-template").html()),
+  homeBodyTemplate: _.template($("#home-body-template").html()),
   aboutBannerTemplate: _.template($("#about-banner-template").html()),
   aboutBodyTemplate: _.template($("#about-body-template").html()),
   englandTemplate: _.template($("#england-template").html()),
@@ -20,6 +21,7 @@ var NavbarView = Backbone.View.extend({
   walesBannerTemplate: _.template($("#wales-banner-template").html()),
   initialize: function() {
     this.renderNavbar();
+    this.showHome();
   },
   events: {
     'click #about-btn'        : 'showAbout',
@@ -42,8 +44,10 @@ var NavbarView = Backbone.View.extend({
     return this;
   },
   showHome: function() {
+    this.renderNavbar();
     $('#banner').html(this.homeBannerTemplate());
-    return this;
+    $('#body').html(this.homeBodyTemplate());
+    this.queueBxSlider();
   },
   showEngland: function() {
     $('#banner').html(this.englandBannerTemplate());
@@ -72,5 +76,10 @@ var NavbarView = Backbone.View.extend({
   showWales: function() {
     $('#banner').html(this.walesBannerTemplate());
     $('#body').html(this.walesTemplate());
-  }
+  },
+  queueBxSlider: function() {
+    $('.bxslider').bxSlider({
+     mode: 'fade'
+    });
+  },
 });
