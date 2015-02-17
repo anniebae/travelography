@@ -1,3 +1,4 @@
+netherlandsPhotos = [
 netherlands1 = [
   {
     title: '',
@@ -19,7 +20,7 @@ netherlands1 = [
     image: 'stylesheets/images/amsterdam/am4.JPG',
     id: 4
   }
-];
+],
 
 netherlands2 = [
   {
@@ -42,7 +43,7 @@ netherlands2 = [
     image: 'stylesheets/images/amsterdam/am8.JPG',
     id: 8
   }
-];
+],
 netherlands3 = [
   {
     title: '',
@@ -64,7 +65,7 @@ netherlands3 = [
     image: 'stylesheets/images/amsterdam/am12.JPG',
     id: 12
   }
-];
+],
 
 netherlands4 = [
   {
@@ -87,7 +88,7 @@ netherlands4 = [
     image: 'stylesheets/images/amsterdam/am16.JPG',
     id: 16
   }
-];
+],
 
 netherlands5 = [
   {
@@ -111,3 +112,4 @@ netherlands5 = [
     id: 20
   }
 ]
+];

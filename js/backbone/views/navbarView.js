@@ -4,11 +4,7 @@ var NavbarView = Backbone.View.extend({
   aboutTemplate: _.template($("#about-template").html()),
   bannerTemplate: _.template($("#banner-home-template").html()),
   initialize: function() {
-    netherlandsRow1 = new PhotoCollection(netherlands1);
-    netherlandsRow2 = new PhotoCollection(netherlands2);
-    netherlandsRow3 = new PhotoCollection(netherlands3);
-    netherlandsRow4 = new PhotoCollection(netherlands4);
-    netherlandsRow5 = new PhotoCollection(netherlands5);
+    netherlandsArray = new PhotoCollection(netherlandsPhotos);
     this.render();
   },
   events: {
@@ -29,6 +25,6 @@ var NavbarView = Backbone.View.extend({
     return this;
   },
   showNetherlands: function() {
-  photoView = new PhotoView();
+    photoView = new PhotoView();
   },
 });

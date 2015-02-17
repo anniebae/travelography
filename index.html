@@ -27,61 +27,18 @@
 </script>
 
 <script type="text/template" id="photos-template">
+  <% netherlandsArray.each(function(netherlandsRow) { %>
   <div class="row">
-  <% netherlandsRow1.each(function(model) { %>
-    <% image = model.get('image'); %>
-    <% title = model.get('title'); %>
     <div class="column-3">
-      <a href="<%= image %>" data-lightbox="amsterdam" data-title="<%= title %>">
-        <img src="<%= image %>" class="lightbox-photo">
+      <% for (var i = netherlandsRow.length - 1; i >= 0; i--) { %>
+        <% row = netherlandsRow[i] %>
+      <a href="<%= row.get('image') %>" data-lightbox="amsterdam" data-title="<%= row.get('title') %>">
+        <img src="<%= row.get('image') %>" class="lightbox-photo">
+      <% }; %>
       </a>
     </div>
-  <% }); %>
   </div>
-  <div class="row">
-  <% netherlandsRow2.each(function(model) { %>
-    <% image = model.get('image'); %>
-    <% title = model.get('title'); %>
-    <div class="column-3">
-      <a href="<%= image %>" data-lightbox="amsterdam" data-title="<%= title %>">
-        <img src="<%= image %>" class="lightbox-photo">
-      </a>
-    </div>
   <% }); %>
-  </div>
-  <div class="row">
-  <% netherlandsRow3.each(function(model) { %>
-    <% image = model.get('image'); %>
-    <% title = model.get('title'); %>
-    <div class="column-3">
-      <a href="<%= image %>" data-lightbox="amsterdam" data-title="<%= title %>">
-        <img src="<%= image %>" class="lightbox-photo">
-      </a>
-    </div>
-  <% }); %>
-  </div>
-  <div class="row">
-  <% netherlandsRow4.each(function(model) { %>
-    <% image = model.get('image'); %>
-    <% title = model.get('title'); %>
-    <div class="column-3">
-      <a href="<%= image %>" data-lightbox="amsterdam" data-title="<%= title %>">
-        <img src="<%= image %>" class="lightbox-photo">
-      </a>
-    </div>
-  <% }); %>
-  </div>
-  <div class="row">
-  <% netherlandsRow5.each(function(model) { %>
-    <% image = model.get('image'); %>
-    <% title = model.get('title'); %>
-    <div class="column-3">
-      <a href="<%= image %>" data-lightbox="amsterdam" data-title="<%= title %>">
-        <img src="<%= image %>" class="lightbox-photo">
-      </a>
-    </div>
-  <% }); %>
-  </div>
 </script>
 
 
