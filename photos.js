@@ -1,4 +1,4 @@
-netherlands = [
+netherlandsPhotos = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am1.JPG',

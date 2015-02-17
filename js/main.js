@@ -5,6 +5,9 @@ $(document).ready(function () {
   });
 });
 
+photoCollection = new PhotoCollection(netherlandsPhotos);
+
+
 
 var bannerView = new BannerView();
 var navbarView = new NavbarView();
