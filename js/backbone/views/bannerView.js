@@ -1,6 +1,6 @@
 var BannerView = Backbone.View.extend({
   el: "#banner",
-  bannerTemplate: _.template($("#banner-home-template").html()),
+  bannerTemplate: _.template($("#home-banner-template").html()),
   initialize: function() {
     this.render();
   },

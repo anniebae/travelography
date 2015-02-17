@@ -1,30 +1,30 @@
 var NavbarView = Backbone.View.extend({
   el: "#navbar",
   navbarTemplate: _.template($("#navbar-template").html()),
-  aboutTemplate: _.template($("#about-template").html()),
-  bannerTemplate: _.template($("#banner-home-template").html()),
+  homeBannerTemplate: _.template($("#home-banner-template").html()),
+  aboutBannerTemplate: _.template($("#about-banner-template").html()),
+  aboutBodyTemplate: _.template($("#about-body-template").html()),
   initialize: function() {
-    netherlandsArray = new PhotoCollection(netherlandsPhotos);
-    this.render();
+    $banner = $('#banner');
+    $body   = $('#body');
+    this.renderNavbar();
   },
   events: {
     'click #about-btn': 'showAbout',
     'click #home-btn': 'showHome',
     'click #netherlands-tab': 'showNetherlands'
   },
-  render: function() {
+  renderNavbar: function() {
     this.$el.html(this.navbarTemplate());
     return this;
   },
   showAbout: function() {
-    $('#banner').html(this.aboutTemplate());
+    $banner.html(this.aboutBannerTemplate());
+    $body.html(this.aboutBodyTemplate());
     return this;
   },
   showHome: function() {
-    $('#banner').html(this.bannerTemplate());
+    $banner.html(this.homeBannerTemplate());
     return this;
-  },
-  showNetherlands: function() {
-    photoView = new PhotoView();
   },
 });

@@ -1,6 +1,6 @@
 var AboutView = Backbone.View.extend({
-  el: "#about",
-  aboutTemplate: _.template($("#about-template").html()),
+  el: "#banner",
+  aboutBodyTemplate: _.template($("#about-body-template").html()),
   initialize: function() {
     this.render();
   },
