@@ -1,10 +1,11 @@
-$(document).ready(function () {
+$(function() {  
   $('.dropdown-toggle').dropdown();
   $('.bxslider').bxSlider({
     mode: 'fade'
   });
 });
 
+new AppView();
 
-new NavbarView();
+
 
