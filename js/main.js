@@ -15,3 +15,7 @@ var aboutView = new AboutView();
 var englandView = new EnglandView();
 var franceView = new FranceView();
 var italyView = new ItalyView();
+var netherlandsView = new NetherlandsView();
+var scotlandView = new ScotlandView();
+var spainView = new SpainView();
+var walesView = new WalesView();
