@@ -2,121 +2,101 @@ netherlands = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am1.JPG',
-    link: 'stylesheets/images/amsterdam/am1.JPG',
     id: 1
   },
   {
     title: "Amsterdam's smallest flat - 1 meter wide",
     image: 'stylesheets/images/amsterdam/am2.JPG',
-    link: 'stylesheets/images/amsterdam/am2.JPG',
     id: 2
   },
   {
-    title: '',
-    image: '',
-    link: '',
+    title: 'Heineken Experience',
+    image: 'stylesheets/images/amsterdam/am3.JPG',
     id: 3
   },
   {
-    title: '',
-    image: '',
-    link: '',
+    title: 'Rijksmuseum',
+    image: 'stylesheets/images/amsterdam/am4.JPG',
     id: 4
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am5.JPG',
     id: 5
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am6.JPG',
     id: 6
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am7.JPG',
     id: 7
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am8.JPG',
     id: 8
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am9.JPG',
     id: 9
   },
   {
-    title: '',
-    image: '',
-    link: '',
+    title: 'Canals of Amsterdam',
+    image: 'stylesheets/images/amsterdam/am10.JPG',
     id: 10
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am11.JPG',
     id: 11
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am12.JPG',
     id: 12
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am13.JPG',
     id: 13
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am14.JPG',
     id: 14
   },
   {
-    title: '',
-    image: '',
-    link: '',
+    title: 'Heineken Experience',
+    image: 'stylesheets/images/amsterdam/am15.JPG',
     id: 15
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am16.JPG',
     id: 16
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am17.JPG',
     id: 17
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am18.JPG',
     id: 18
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am19.JPG',
     id: 19
   },
   {
     title: '',
-    image: '',
-    link: '',
+    image: 'stylesheets/images/amsterdam/am20.JPG',
     id: 20
   }
 ];
