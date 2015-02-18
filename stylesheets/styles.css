@@ -234,3 +234,10 @@ h2 {
   text-align: center;
   width: 50px;
 }
+
+@media screen and (max-width: 580px) {
+  .city-navbar {
+    top: 1%;
+    font-size: 15px;
+  }
+}
