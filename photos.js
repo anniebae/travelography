@@ -1,5 +1,122 @@
-netherlandsPhotos = [
-netherlands1 = [
+londonPhotos = [
+  london1 = [
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+  ],
+
+  london2 = [
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+  ],
+
+  london3 = [
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+  ],
+
+  london4 = [
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+  ],
+
+  london5 = [
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+    {
+      title:
+      image:
+      id:
+    },
+  ]
+];
+
+amsterdamPhotos = [
+amsterdam1 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am1.JPG',
@@ -22,7 +139,7 @@ netherlands1 = [
   }
 ],
 
-netherlands2 = [
+amsterdam2 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am5.JPG',
@@ -44,7 +161,7 @@ netherlands2 = [
     id: 8
   }
 ],
-netherlands3 = [
+amsterdam3 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am9.JPG',
@@ -67,7 +184,7 @@ netherlands3 = [
   }
 ],
 
-netherlands4 = [
+amsterdam4 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am13.JPG',
@@ -90,7 +207,7 @@ netherlands4 = [
   }
 ],
 
-netherlands5 = [
+amsterdam5 = [
   {
     title: '',
     image: 'stylesheets/images/amsterdam/am17.JPG',
