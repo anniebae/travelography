@@ -1,116 +1,116 @@
 londonPhotos = [
   london1 = [
     {
-      title:
-      image:
-      id:
+      title: '',
+      image: 'stylesheets/images/london/lon1.JPG',
+      id: 1
     },
     {
-      title:
-      image:
-      id:
+      title: '',
+      image: 'stylesheets/images/london/lon2.JPG',
+      id: 2
     },
     {
-      title:
-      image:
-      id:
+      title: 'Buckingham Palace',
+      image: 'stylesheets/images/london/lon3.JPG',
+      id: 3
     },
     {
-      title:
-      image:
-      id:
+      title: '',
+      image: 'stylesheets/images/london/lon4.JPG',
+      id: 4
     },
   ],
 
   london2 = [
     {
-      title:
-      image:
-      id:
+      title: '',
+      image: 'stylesheets/images/london/lon5.JPG',
+      id: 5
     },
     {
-      title:
-      image:
-      id:
+      title: 'Paddington',
+      image: 'stylesheets/images/london/lon6.JPG',
+      id: 6
     },
     {
-      title:
-      image:
-      id:
+      title: 'Tower Bridge',
+      image: 'stylesheets/images/london/lon7.JPG',
+      id: 7
     },
     {
-      title:
-      image:
-      id:
+      title: '',
+      image: 'stylesheets/images/london/lon8.JPG',
+      id: 8
     },
   ],
 
   london3 = [
     {
-      title:
-      image:
-      id:
+      title: 'Antiques at Covent Garden',
+      image: 'stylesheets/images/london/lon9.JPG',
+      id: 9
     },
     {
-      title:
-      image:
-      id:
+      title: '(near) Piccadilly Circus',
+      image: 'stylesheets/images/london/lon10.JPG',
+      id: 10
     },
     {
-      title:
-      image:
-      id:
+      title: 'My first fish n chips!',
+      image: 'stylesheets/images/london/lon11.JPG',
+      id: 11
     },
     {
-      title:
-      image:
-      id:
+      title: '',
+      image: 'stylesheets/images/london/lon12.JPG',
+      id: 12
     },
   ],
 
   london4 = [
     {
-      title:
-      image:
-      id:
+      title: 'Abbey Road',
+      image: 'stylesheets/images/london/lon13.JPG',
+      id: 13
     },
     {
-      title:
-      image:
-      id:
+      title: 'London Eye',
+      image: 'stylesheets/images/london/lon14.JPG',
+      id: 14
     },
     {
-      title:
-      image:
-      id:
+      title: "St. Paul's Cathedral",
+      image: 'stylesheets/images/london/lon15.JPG',
+      id: 15
     },
     {
-      title:
-      image:
-      id:
+      title: 'Clock Tower',
+      image: 'stylesheets/images/london/lon16.JPG',
+      id: 16
     },
   ],
 
   london5 = [
     {
-      title:
-      image:
-      id:
+      title: 'London Eye',
+      image: 'stylesheets/images/london/lon17.JPG',
+      id: 17
     },
     {
-      title:
-      image:
-      id:
+      title: 'Westminster Abbey',
+      image: 'stylesheets/images/london/lon18.JPG',
+      id: 18
     },
     {
-      title:
-      image:
-      id:
+      title: 'Chinatown',
+      image: 'stylesheets/images/london/lon19.JPG',
+      id: 19
     },
     {
-      title:
-      image:
-      id:
+      title: 'Platform 9 3/4',
+      image: 'stylesheets/images/london/lon20.JPG',
+      id: 20
     },
   ]
 ];
