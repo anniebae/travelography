@@ -115,6 +115,87 @@ londonPhotos = [
   ]
 ];
 
+bristolPhotos = [
+  bristol1 = [
+    {
+      title: '',
+      image: 'stylesheets/images/bristol/br1.JPG',
+      id: 1
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bristol/br2.JPG',
+      id: 2
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bristol/br3.JPG',
+      id: 3
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bristol/br4.JPG',
+      id: 4
+    },
+  ],
+
+  bristol2 = [
+    {
+      title: '',
+      image: 'stylesheets/images/bristol/br5.JPG',
+      id: 5
+    },
+    {
+      title: 'Paddington',
+      image: 'stylesheets/images/bristol/br6.JPG',
+      id: 6
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bristol/br7.JPG',
+      id: 7
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bristol/br8.JPG',
+      id: 8
+    },
+  ],
+
+  bristol3 = [
+    {
+      title: 'Antiques at Covent Garden',
+      image: 'stylesheets/images/bristol/br9.JPG',
+      id: 9
+    },
+    {
+      title: '(near) Piccadilly Circus',
+      image: 'stylesheets/images/bristol/br10.JPG',
+      id: 10
+    },
+    {
+      title: 'My first fish n chips!',
+      image: 'stylesheets/images/bristol/br11.JPG',
+      id: 11
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bristol/br12.JPG',
+      id: 12
+    },
+  ],
+
+];
+
+
+
+
+
+
+
+
+
+
 amsterdamPhotos = [
 amsterdam1 = [
   {
