@@ -357,7 +357,76 @@ parisPhotos = [
 ];
 
 
+versaillesPhotos = [
+  versailles1 = [
+    {
+      title: 'Chateau de Versailles',
+      image: 'stylesheets/images/versailles/ver1.JPG',
+      id: 1
+    },
+    {
+      title: 'Chateau de Versailles',
+      image: 'stylesheets/images/versailles/ver2.JPG',
+      id: 2
+    },
+    {
+      title: 'Chateau de Versailles',
+      image: 'stylesheets/images/versailles/ver3.JPG',
+      id: 3
+    },
+    {
+      title: 'Chateau de Versailles',
+      image: 'stylesheets/images/versailles/ver4.JPG',
+      id: 4
+    },
+  ],
 
+  versailles2 = [
+    {
+      title: '',
+      image: 'stylesheets/images/versailles/ver5.JPG',
+      id: 5
+    },
+    {
+      title: 'Chateau de Versailles',
+      image: 'stylesheets/images/versailles/ver6.JPG',
+      id: 6
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/versailles/ver7.JPG',
+      id: 7
+    },
+    {
+      title: 'Hall of Mirrors',
+      image: 'stylesheets/images/versailles/ver8.JPG',
+      id: 8
+    },
+  ],
+
+  versailles3 = [
+    {
+      title: 'Chateau de Versailles',
+      image: 'stylesheets/images/versailles/ver9.JPG',
+      id: 9
+    },
+    {
+      title: 'Hall of Mirrors',
+      image: 'stylesheets/images/versailles/ver10.JPG',
+      id: 10
+    },
+    {
+      title: 'Hall of Mirrors',
+      image: 'stylesheets/images/versailles/ver11.JPG',
+      id: 11
+    },
+    {
+      title: 'Hall of Mirrors',
+      image: 'stylesheets/images/versailles/ver12.JPG',
+      id: 12
+    },
+  ],
+];
 
 
 
