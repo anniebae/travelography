@@ -1,3 +1,5 @@
+// ENGLAND PHOTO DATA
+
 londonPhotos = [
   london1 = [
     {
@@ -146,7 +148,7 @@ bristolPhotos = [
       id: 5
     },
     {
-      title: 'Paddington',
+      title: '',
       image: 'stylesheets/images/bristol/br6.JPG',
       id: 6
     },
@@ -164,17 +166,17 @@ bristolPhotos = [
 
   bristol3 = [
     {
-      title: 'Antiques at Covent Garden',
+      title: '',
       image: 'stylesheets/images/bristol/br9.JPG',
       id: 9
     },
     {
-      title: '(near) Piccadilly Circus',
+      title: '',
       image: 'stylesheets/images/bristol/br10.JPG',
       id: 10
     },
     {
-      title: 'My first fish n chips!',
+      title: '',
       image: 'stylesheets/images/bristol/br11.JPG',
       id: 11
     },
@@ -184,8 +186,197 @@ bristolPhotos = [
       id: 12
     },
   ],
-
 ];
+
+bathPhotos = [
+  bath1 = [
+    {
+      title: '',
+      image: 'stylesheets/images/bath/bath1.JPG',
+      id: 1
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bath/bath2.JPG',
+      id: 2
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bath/bath3.JPG',
+      id: 3
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bath/bath4.JPG',
+      id: 4
+    },
+  ],
+
+  bath2 = [
+    {
+      title: '',
+      image: 'stylesheets/images/bath/bath5.JPG',
+      id: 5
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bath/bath6.JPG',
+      id: 6
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bath/bath7.JPG',
+      id: 7
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/bath/bath8.JPG',
+      id: 8
+    },
+  ],
+];
+
+
+// FRANCE PHOTO DATA
+
+parisPhotos = [
+  paris1 = [
+    {
+      title: 'Hotel de Ville',
+      image: 'stylesheets/images/paris/par1.JPG',
+      id: 1
+    },
+    {
+      title: 'Jardin des Tuileries',
+      image: 'stylesheets/images/paris/par2.JPG',
+      id: 2
+    },
+    {
+      title: 'Buckingham Palace',
+      image: 'stylesheets/images/paris/par3.JPG',
+      id: 3
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/paris/par4.JPG',
+      id: 4
+    },
+  ],
+
+  paris2 = [
+    {
+      title: 'Louvre Museum',
+      image: 'stylesheets/images/paris/par5.JPG',
+      id: 5
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/paris/par6.JPG',
+      id: 6
+    },
+    {
+      title: 'Moulin Rouge',
+      image: 'stylesheets/images/paris/par7.JPG',
+      id: 7
+    },
+    {
+      title: 'Galeries Lafayette',
+      image: 'stylesheets/images/paris/par8.JPG',
+      id: 8
+    },
+  ],
+
+  paris3 = [
+    {
+      title: '',
+      image: 'stylesheets/images/paris/par9.JPG',
+      id: 9
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/paris/par10.JPG',
+      id: 10
+    },
+    {
+      title: 'Arc de Triomphe',
+      image: 'stylesheets/images/paris/par11.JPG',
+      id: 11
+    },
+    {
+      title: 'Champs-Elysees',
+      image: 'stylesheets/images/paris/par12.JPG',
+      id: 12
+    },
+  ],
+
+  paris4 = [
+    {
+      title: 'La Seine',
+      image: 'stylesheets/images/paris/par13.JPG',
+      id: 13
+    },
+    {
+      title: 'Statue of Liberty',
+      image: 'stylesheets/images/paris/par14.JPG',
+      id: 14
+    },
+    {
+      title: "",
+      image: 'stylesheets/images/paris/par15.JPG',
+      id: 15
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/paris/par16.JPG',
+      id: 16
+    },
+  ],
+
+  paris5 = [
+    {
+      title: 'Jardin du Luxembourg',
+      image: 'stylesheets/images/paris/par17.JPG',
+      id: 17
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/paris/par18.JPG',
+      id: 18
+    },
+    {
+      title: 'Eiffel Tower',
+      image: 'stylesheets/images/paris/par19.JPG',
+      id: 19
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/paris/par20.JPG',
+      id: 20
+    },
+  ]
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
