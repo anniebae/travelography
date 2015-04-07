@@ -1,5 +1,4 @@
 // ENGLAND PHOTO DATA
-
 londonPhotos = [
   london1 = [
     {
@@ -238,7 +237,6 @@ bathPhotos = [
 
 
 // FRANCE PHOTO DATA
-
 parisPhotos = [
   paris1 = [
     {
@@ -429,11 +427,288 @@ versaillesPhotos = [
 ];
 
 
+// ITALY PHOTO DATA
+milanPhotos = [
+  milan1 = [
+    {
+      title: 'Duomo di Milano',
+      image: 'stylesheets/images/milan/mil1.JPG',
+      id: 1
+    },
+    {
+      title: 'Italian gelato',
+      image: 'stylesheets/images/milan/mil2.JPG',
+      id: 2
+    },
+    {
+      title: 'Duomo di Milano',
+      image: 'stylesheets/images/milan/mil3.JPG',
+      id: 3
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil4.JPG',
+      id: 4
+    },
+  ],
 
+  milan2 = [
+    {
+      title: 'Navigli District',
+      image: 'stylesheets/images/milan/mil5.JPG',
+      id: 5
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil6.JPG',
+      id: 6
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil7.JPG',
+      id: 7
+    },
+    {
+      title: 'Pinacoteca di Brera',
+      image: 'stylesheets/images/milan/mil8.JPG',
+      id: 8
+    },
+  ],
 
+  milan3 = [
+    {
+      title: 'Brera District',
+      image: 'stylesheets/images/milan/mil9.JPG',
+      id: 9
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil10.JPG',
+      id: 10
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil11.JPG',
+      id: 11
+    },
+    {
+      title: 'Castello Sforzesco',
+      image: 'stylesheets/images/milan/mil12.JPG',
+      id: 12
+    },
+  ],
 
+  milan4 = [
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil13.JPG',
+      id: 13
+    },
+    {
+      title: 'Duomo di Milano',
+      image: 'stylesheets/images/milan/mil14.JPG',
+      id: 14
+    },
+    {
+      title: "",
+      image: 'stylesheets/images/milan/mil15.JPG',
+      id: 15
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil16.JPG',
+      id: 16
+    },
+  ],
 
+  milan5 = [
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil17.JPG',
+      id: 17
+    },
+    {
+      title: 'Westminster Abbey',
+      image: 'stylesheets/images/milan/mil18.JPG',
+      id: 18
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil19.JPG',
+      id: 19
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/milan/mil20.JPG',
+      id: 20
+    },
+  ]
+];
 
+romePhotos = [
+  rome1 = [
+    {
+      title: 'Duomo di Milano',
+      image: 'stylesheets/images/rome/rome1.JPG',
+      id: 1
+    },
+    {
+      title: 'Italian gelato',
+      image: 'stylesheets/images/rome/rome2.JPG',
+      id: 2
+    },
+    {
+      title: 'Duomo di Milano',
+      image: 'stylesheets/images/rome/rome3.JPG',
+      id: 3
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/rome/rome4.JPG',
+      id: 4
+    },
+  ],
+
+  rome2 = [
+    {
+      title: 'Navigli District',
+      image: 'stylesheets/images/rome/rome5.JPG',
+      id: 5
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/rome/rome6.JPG',
+      id: 6
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/rome/rome7.JPG',
+      id: 7
+    },
+    {
+      title: 'Pinacoteca di Brera',
+      image: 'stylesheets/images/rome/rome8.JPG',
+      id: 8
+    },
+  ],
+
+  rome3 = [
+    {
+      title: 'Brera District',
+      image: 'stylesheets/images/rome/rome9.JPG',
+      id: 9
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/rome/rome10.JPG',
+      id: 10
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/rome/rome11.JPG',
+      id: 11
+    },
+    {
+      title: 'Castello Sforzesco',
+      image: 'stylesheets/images/rome/rome12.JPG',
+      id: 12
+    },
+  ],
+
+  rome4 = [
+    {
+      title: '',
+      image: 'stylesheets/images/rome/rome13.JPG',
+      id: 13
+    },
+    {
+      title: 'Duomo di Milano',
+      image: 'stylesheets/images/rome/rome14.JPG',
+      id: 14
+    },
+    {
+      title: "",
+      image: 'stylesheets/images/rome/rome15.JPG',
+      id: 15
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/rome/rome16.JPG',
+      id: 16
+    },
+  ]
+];
+
+venicePhotos = [
+  venice1 = [
+    {
+      title: 'Duomo di Milano',
+      image: 'stylesheets/images/venice/ven1.JPG',
+      id: 1
+    },
+    {
+      title: 'Italian gelato',
+      image: 'stylesheets/images/venice/ven2.JPG',
+      id: 2
+    },
+    {
+      title: 'Duomo di Milano',
+      image: 'stylesheets/images/venice/ven3.JPG',
+      id: 3
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/venice/ven4.JPG',
+      id: 4
+    },
+  ],
+
+  venice2 = [
+    {
+      title: 'Navigli District',
+      image: 'stylesheets/images/venice/ven5.JPG',
+      id: 5
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/venice/ven6.JPG',
+      id: 6
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/venice/ven7.JPG',
+      id: 7
+    },
+    {
+      title: 'Pinacoteca di Brera',
+      image: 'stylesheets/images/venice/ven8.JPG',
+      id: 8
+    },
+  ],
+
+  venice3 = [
+    {
+      title: 'Brera District',
+      image: 'stylesheets/images/venice/ven9.JPG',
+      id: 9
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/venice/ven10.JPG',
+      id: 10
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/venice/ven11.JPG',
+      id: 11
+    },
+    {
+      title: 'Castello Sforzesco',
+      image: 'stylesheets/images/venice/ven12.JPG',
+      id: 12
+    },
+  ]
+];
 
 
 
