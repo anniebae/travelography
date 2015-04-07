@@ -935,3 +935,240 @@ highlands3 = [
   }
 ]
 ];
+
+// SPAIN PHHOTOS DATA
+barcelonaPhotos = [
+  barcelona1 = [
+    {
+      title: 'Park Guell',
+      image: 'stylesheets/images/barcelona/bar1.JPG',
+      id: 1
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar2.JPG',
+      id: 2
+    },
+    {
+      title: 'Sagrada Familia',
+      image: 'stylesheets/images/barcelona/bar3.JPG',
+      id: 3
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar4.JPG',
+      id: 4
+    },
+  ],
+
+  barcelona2 = [
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar5.JPG',
+      id: 5
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar6.JPG',
+      id: 6
+    },
+    {
+      title: 'The Iguana',
+      image: 'stylesheets/images/barcelona/bar7.JPG',
+      id: 7
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar8.JPG',
+      id: 8
+    },
+  ],
+
+  barcelona3 = [
+    {
+      title: 'Antiques at Covent Garden',
+      image: 'stylesheets/images/barcelona/bar9.JPG',
+      id: 9
+    },
+    {
+      title: 'Arc de Triomf',
+      image: 'stylesheets/images/barcelona/bar10.JPG',
+      id: 10
+    },
+    {
+      title: 'Casa Mila',
+      image: 'stylesheets/images/barcelona/bar11.JPG',
+      id: 11
+    },
+    {
+      title: 'Magic Fountain of Monjuic',
+      image: 'stylesheets/images/barcelona/bar12.JPG',
+      id: 12
+    },
+  ],
+
+  barcelona4 = [
+    {
+      title: 'Casa Batllo',
+      image: 'stylesheets/images/barcelona/bar13.JPG',
+      id: 13
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar14.JPG',
+      id: 14
+    },
+    {
+      title: "",
+      image: 'stylesheets/images/barcelona/bar15.JPG',
+      id: 15
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar16.JPG',
+      id: 16
+    },
+  ],
+
+  barcelona5 = [
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar17.JPG',
+      id: 17
+    },
+    {
+      title: 'My very own Stonehenge',
+      image: 'stylesheets/images/barcelona/bar18.JPG',
+      id: 18
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar19.JPG',
+      id: 19
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/barcelona/bar20.JPG',
+      id: 20
+    },
+  ]
+];
+
+// WALES PHTOS DATA
+cardiffPhotos = [
+  cardiff1 = [
+    {
+      title: 'Cardiff University',
+      image: 'stylesheets/images/cardiff/car1.JPG',
+      id: 1
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car2.JPG',
+      id: 2
+    },
+    {
+      title: 'Cardiff Castle',
+      image: 'stylesheets/images/cardiff/car3.JPG',
+      id: 3
+    },
+    {
+      title: 'Cardiff Bay',
+      image: 'stylesheets/images/cardiff/car4.JPG',
+      id: 4
+    },
+  ],
+
+  cardiff2 = [
+    {
+      title: 'Millenium Centre',
+      image: 'stylesheets/images/cardiff/car5.JPG',
+      id: 5
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car6.JPG',
+      id: 6
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car7.JPG',
+      id: 7
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car8.JPG',
+      id: 8
+    },
+  ],
+
+  cardiff3 = [
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car9.JPG',
+      id: 9
+    },
+    {
+      title: 'Welsh cakes',
+      image: 'stylesheets/images/cardiff/car10.JPG',
+      id: 10
+    },
+    {
+      title: 'Coursework madness',
+      image: 'stylesheets/images/cardiff/car11.JPG',
+      id: 11
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car12.JPG',
+      id: 12
+    },
+  ],
+
+  cardiff4 = [
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car13.JPG',
+      id: 13
+    },
+    {
+      title: 'Anberlin',
+      image: 'stylesheets/images/cardiff/car14.JPG',
+      id: 14
+    },
+    {
+      title: "",
+      image: 'stylesheets/images/cardiff/car15.JPG',
+      id: 15
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car16.JPG',
+      id: 16
+    },
+  ],
+
+  cardiff5 = [
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car17.JPG',
+      id: 17
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car18.JPG',
+      id: 18
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car19.JPG',
+      id: 19
+    },
+    {
+      title: '',
+      image: 'stylesheets/images/cardiff/car20.JPG',
+      id: 20
+    },
+  ]
+];
+
