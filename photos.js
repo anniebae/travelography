@@ -711,26 +711,7 @@ venicePhotos = [
 ];
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// NETHERLANDS PHOTO DATA
 amsterdamPhotos = [
 amsterdam1 = [
   {
@@ -843,6 +824,114 @@ amsterdam5 = [
     title: '',
     image: 'stylesheets/images/amsterdam/am20.JPG',
     id: 20
+  }
+]
+];
+
+edinburghPhotos = [
+edinburgh1 = [
+  {
+    title: '',
+    image: 'stylesheets/images/edinburgh/ed1.JPG',
+    id: 1
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/edinburgh/ed2.JPG',
+    id: 2
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/edinburgh/ed3.JPG',
+    id: 3
+  }
+],
+edinburgh2 = [
+  {
+    title: '',
+    image: 'stylesheets/images/edinburgh/ed4.JPG',
+    id: 4
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/edinburgh/ed5.JPG',
+    id: 5
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/edinburgh/ed6.JPG',
+    id: 6
+  }
+],
+edinburgh3 = [
+  {
+    title: '',
+    image: 'stylesheets/images/edinburgh/ed7.JPG',
+    id: 7
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/edinburgh/ed8.JPG',
+    id: 8
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/edinburgh/ed9.JPG',
+    id: 9
+  }
+]
+];
+
+highlandsPhotos = [
+highlands1 = [
+  {
+    title: '',
+    image: 'stylesheets/images/highlands/hi1.JPG',
+    id: 1
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/highlands/hi2.JPG',
+    id: 2
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/highlands/hi3.JPG',
+    id: 3
+  }
+],
+highlands2 = [
+  {
+    title: 'Hamish The Highland Cow',
+    image: 'stylesheets/images/highlands/hi4.JPG',
+    id: 4
+  },
+  {
+    title: 'Loch Ness',
+    image: 'stylesheets/images/highlands/hi5.JPG',
+    id: 5
+  },
+  {
+    title: 'Loch Ness',
+    image: 'stylesheets/images/highlands/hi6.JPG',
+    id: 6
+  }
+],
+highlands3 = [
+  {
+    title: '',
+    image: 'stylesheets/images/highlands/hi7.JPG',
+    id: 7
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/highlands/hi8.JPG',
+    id: 8
+  },
+  {
+    title: '',
+    image: 'stylesheets/images/highlands/hi9.JPG',
+    id: 9
   }
 ]
 ];
