@@ -1405,7 +1405,21 @@
   <div id="<%= city %>-container">
     <div class="<%= city %>-body" id="city-body">
       <span class="city-name"><%= city %></span>
-      <div></div>
+      <div id="location">
+        <ul id="issues">
+          <% this.collection.each(function(model) { %>
+          <% title = model.get('title') %>
+          <% image = model.get('image') %>
+          <li>
+            <div class="row">
+              <div class="column-3">
+                <img src="<%= image %>">
+              </div>
+            </div>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
     </div>
   </div>
 </script>
